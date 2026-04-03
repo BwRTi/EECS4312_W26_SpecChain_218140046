@@ -52,7 +52,6 @@ The cleaning script removes duplicate reviews, empty entries, and very short rev
 ## Required Environment
 
 - Python `3.10`
-- Virtual environment recommended at `.venv`
 - Operating system used for the commands in this README: `Windows`
 - Shell used for the commands in this README: `PowerShell`
 
