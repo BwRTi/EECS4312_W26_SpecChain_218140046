@@ -1,0 +1,125 @@
+{
+  "generation_mode": "groq",
+  "personas": [
+    {
+      "id": "persona_A1",
+      "name": "Alex",
+      "description": "A person seeking emotional support and a safe space to talk through stress, anxiety, or loneliness.",
+      "derived_from_group": "A1",
+      "goals": [
+        "To find a supportive and non-judgmental space to express feelings and thoughts.",
+        "To receive emotional support and guidance during difficult times."
+      ],
+      "pain_points": [
+        "Current solutions may not provide a genuine and empathetic listening experience.",
+        "Some users have had negative experiences with AI chatbots that seem scripted or unhelpful."
+      ],
+      "context": "Alex is likely experiencing stress, anxiety, or feelings of loneliness and is looking for a supportive ear to listen and offer guidance.",
+      "constraints": [
+        "May be hesitant to pay for a service, especially if it doesn't feel genuine or effective.",
+        "Values anonymity and a non-judgmental space to express feelings."
+      ],
+      "evidence_reviews": [
+        "8fddcc15-22d0-41f4-830d-a2c94d408e8f",
+        "db74ee6a-9d8a-4e42-be16-23cd68f19f5b",
+        "f96fea05-d977-4fda-bbf4-5558b9aa1c8a"
+      ]
+    },
+    {
+      "id": "persona_A2",
+      "name": "Mia",
+      "description": "A person interested in self-help exercises such as CBT prompts, breathing, journaling, and mindfulness tools.",
+      "derived_from_group": "A2",
+      "goals": [
+        "To find effective self-help tools and exercises to manage stress and anxiety.",
+        "To develop healthy coping mechanisms and improve mental well-being."
+      ],
+      "pain_points": [
+        "Some users have experienced issues with AI chatbots that seem robotic or unhelpful.",
+        "Current solutions may not provide a comprehensive or personalized self-help experience."
+      ],
+      "context": "Mia is likely interested in taking a proactive approach to managing stress and anxiety and is looking for effective self-help tools and exercises.",
+      "constraints": [
+        "May be hesitant to pay for a service, especially if it doesn't feel comprehensive or personalized.",
+        "Values evidence-based self-help tools and exercises."
+      ],
+      "evidence_reviews": [
+        "28750c28-b89c-4a96-8e4b-b2189a55b4df",
+        "8175085a-4f63-4eb6-b911-2498f448f388",
+        "c478e1c4-c7c8-48f7-9297-25a1c1b413f4"
+      ]
+    },
+    {
+      "id": "persona_A3",
+      "name": "Jamie",
+      "description": "A person frustrated by robotic, repetitive, or low-context AI conversations.",
+      "derived_from_group": "A3",
+      "goals": [
+        "To find a conversational AI that provides a genuine and empathetic experience.",
+        "To receive helpful and relevant guidance during difficult times."
+      ],
+      "pain_points": [
+        "Current solutions may provide robotic or repetitive responses that don't feel genuine or helpful.",
+        "Some users have experienced issues with AI chatbots that seem to ignore or misunderstand their concerns."
+      ],
+      "context": "Jamie is likely frustrated with the limitations of current conversational AI solutions and is looking for a more genuine and empathetic experience.",
+      "constraints": [
+        "Values a conversational experience that feels genuine and empathetic.",
+        "May be hesitant to continue using a service that doesn't provide a satisfactory experience."
+      ],
+      "evidence_reviews": [
+        "4cd9648e-5297-4f2b-b15f-bc560f54d4e2",
+        "d3bcdd61-3cfa-4d2a-9192-b4b165390233",
+        "5234d788-143a-4c45-81db-60231b9b5880"
+      ]
+    },
+    {
+      "id": "persona_A4",
+      "name": "Samantha",
+      "description": "A person sensitive to pricing, subscription friction, and free-tier limitations.",
+      "derived_from_group": "A4",
+      "goals": [
+        "To find an affordable and transparent pricing model.",
+        "To access a comprehensive and effective mental health support experience."
+      ],
+      "pain_points": [
+        "Current solutions may have expensive or unclear pricing models.",
+        "Some users have experienced frustration with subscription friction or free-tier limitations."
+      ],
+      "context": "Samantha is likely sensitive to pricing and is looking for an affordable and transparent solution that provides a comprehensive and effective mental health support experience.",
+      "constraints": [
+        "Values affordability and transparency in pricing.",
+        "May be hesitant to pay for a service that doesn't feel comprehensive or effective."
+      ],
+      "evidence_reviews": [
+        "4a86efa7-99b3-4752-9c94-89b59621b7ae",
+        "949ffb3b-be3d-4d04-8e3a-48d85e4bc9fc",
+        "f684233d-04c6-484d-9b12-9f4cfffd26db"
+      ]
+    },
+    {
+      "id": "persona_A5",
+      "name": "Ethan",
+      "description": "A person affected by slow performance, errors, lost chat history, or unstable flows.",
+      "derived_from_group": "A5",
+      "goals": [
+        "To find a reliable and efficient mental health support experience.",
+        "To access a comprehensive and effective support experience without technical issues."
+      ],
+      "pain_points": [
+        "Current solutions may have technical issues such as slow performance, errors, or lost chat history.",
+        "Some users have experienced frustration with unstable flows or unresponsive chatbots."
+      ],
+      "context": "Ethan is likely frustrated with the technical issues of current mental health support solutions and is looking for a reliable and efficient experience.",
+      "constraints": [
+        "Values a reliable and efficient support experience.",
+        "May be hesitant to continue using a service that doesn't provide a satisfactory experience."
+      ],
+      "evidence_reviews": [
+        "8050720c-1ad1-49b5-8e0d-edef3c2159e8",
+        "87ee824c-fb9a-4d35-b231-700f4420176c",
+        "05d4b308-6c76-4d98-9f90-79cda89e2f5f"
+      ]
+    }
+  ]
+}

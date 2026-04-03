@@ -1,0 +1,36 @@
+{
+  "app": {
+    "name": "Wysa: Mental Health Support",
+    "app_id": "bot.touchkin",
+    "store": "Google Play Store",
+    "source_url": "https://play.google.com/store/apps/details?id=bot.touchkin&hl=en_CA&pli=1"
+  },
+  "dataset_size": {
+    "raw_reviews": 1500,
+    "cleaned_reviews": 1247
+  },
+  "collection_method": {
+    "method": "Automated collection using the google-play-scraper Python package in a Python 3.10 virtual environment.",
+    "script": "src/01_collect_or_import.py",
+    "output_file": "data/reviews_raw.jsonl",
+    "collection_parameters": {
+      "country": "ca",
+      "language": "en",
+      "sort_order": "newest",
+      "requested_review_count": 1500
+    }
+  },
+  "cleaning_decisions": {
+    "script": "src/02_clean.py",
+    "output_file": "data/reviews_clean.jsonl",
+    "steps": [
+      "Removed duplicate reviews by review id and duplicate normalized review content.",
+      "Removed empty reviews and extremely short reviews with fewer than 3 cleaned tokens.",
+      "Removed punctuation, special characters, control characters, and emojis.",
+      "Converted numeric values to English text.",
+      "Normalized whitespace and converted all text to lowercase.",
+      "Removed English stop words.",
+      "Applied lemmatization to the remaining tokens."
+    ]
+  }
+}

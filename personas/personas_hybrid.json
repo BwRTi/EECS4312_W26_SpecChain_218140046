@@ -2,30 +2,143 @@
   "personas": [
     {
       "id": "P_hybrid_1",
-      "name": "Frequent Fitness Logger",
-      "description": "A user who depends on the app for regular workout tracking and expects logging to work reliably during or immediately after exercise.",
+      "name": "Immediate Emotional Support Seeker",
+      "description": "A user who opens the app when feeling overwhelmed, lonely, or emotionally unsafe and wants a place to express feelings without judgment.",
       "derived_from_group": "H1",
       "goals": [
-        "Log workouts quickly",
-        "Track activities without interruption"
+        "Express difficult feelings safely",
+        "Receive immediate emotional acknowledgment"
       ],
       "pain_points": [
-        "The app crashes while saving workouts",
-        "Previously entered activity data may disappear"
+        "Does not always have a trusted person available",
+        "Gets frustrated when support feels dismissive or unrelated"
       ],
       "context": [
-        "Using the app during exercise sessions",
-        "Using the app outdoors or while moving"
+        "Often uses the app during acute stress or loneliness",
+        "Values anonymous support that is available at any time"
       ],
       "constraints": [
-        "Workout logging must complete without crashing",
-        "Saved workout data must persist"
+        "Responses must avoid judgmental language",
+        "Support must be accessible quickly from the main flow"
       ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_41"
+        "8fddcc15-22d0-41f4-830d-a2c94d408e8f",
+        "db74ee6a-9d8a-4e42-be16-23cd68f19f5b",
+        "f96fea05-d977-4fda-bbf4-5558b9aa1c8a"
       ],
-      "notes": "Refined the persona description and removed an unsupported assumption about synchronization."
+      "notes": "Refined the automated persona by removing unsupported claims about budget and confidentiality and tightening the focus on immediate emotional expression."
+    },
+    {
+      "id": "P_hybrid_2",
+      "name": "Structured Coping Tool User",
+      "description": "A user who values concrete coping tools such as breathing, mindfulness, grounding, and journaling, but notices when those tools are repetitive or poorly matched to the situation.",
+      "derived_from_group": "H2",
+      "goals": [
+        "Access practical coping exercises quickly",
+        "Use tools that match the current emotional need"
+      ],
+      "pain_points": [
+        "Exercises can feel repetitive or mismatched to the problem",
+        "Useful tools are less valuable when they are hidden or generic"
+      ],
+      "context": [
+        "Uses the app for self-guided regulation rather than only open-ended chat",
+        "Returns to the app for breathing, meditation, or guided exercises"
+      ],
+      "constraints": [
+        "Exercises should be easy to locate and start",
+        "Tool suggestions should feel relevant to the user's stated concern"
+      ],
+      "evidence_reviews": [
+        "28750c28-b89c-4a96-8e4b-b2189a55b4df",
+        "c478e1c4-c7c8-48f7-9297-25a1c1b413f4",
+        "180e859d-c357-423a-83a2-6745d969a01f"
+      ],
+      "notes": "Revised the automated persona to ground it in the mixed evidence: users want structured tools, but also report that some exercises are repetitive or poorly timed."
+    },
+    {
+      "id": "P_hybrid_3",
+      "name": "Context-Sensitive Conversation User",
+      "description": "A user who expects the chatbot to understand the topic of the conversation, avoid repetition, and respond with context-aware support.",
+      "derived_from_group": "H3",
+      "goals": [
+        "Receive replies that address the actual concern raised",
+        "Continue a conversation without obvious repetition or reset behavior"
+      ],
+      "pain_points": [
+        "The bot can feel scripted, repetitive, or off-topic",
+        "Responses sometimes fail to reflect what the user just said"
+      ],
+      "context": [
+        "Uses the app as a conversational support tool",
+        "Compares the chatbot against expectations for more natural dialogue"
+      ],
+      "constraints": [
+        "Replies must stay on topic",
+        "The system should preserve local conversational context across turns"
+      ],
+      "evidence_reviews": [
+        "4cd9648e-5297-4f2b-b15f-bc560f54d4e2",
+        "5234d788-143a-4c45-81db-60231b9b5880",
+        "bde32dc8-13ae-45f0-b535-4885dd76876f"
+      ],
+      "notes": "Removed unsupported claims about authenticity and replaced them with evidence-backed concerns about repetition, relevance, and context retention."
+    },
+    {
+      "id": "P_hybrid_4",
+      "name": "Price-Sensitive Support User",
+      "description": "A user who wants to understand what is free, what is paid, and whether the app's subscription cost is justified before committing time or money.",
+      "derived_from_group": "H4",
+      "goals": [
+        "See pricing and feature availability clearly",
+        "Avoid surprise paywalls during core support flows"
+      ],
+      "pain_points": [
+        "Subscriptions feel expensive relative to perceived value",
+        "Free-versus-paid boundaries are not always obvious up front"
+      ],
+      "context": [
+        "May try the app expecting meaningful free support",
+        "Likely compares pricing against other mental health tools"
+      ],
+      "constraints": [
+        "Pricing information must be visible before checkout",
+        "Free-tier flows should not be interrupted unnecessarily by upgrade pressure"
+      ],
+      "evidence_reviews": [
+        "4a86efa7-99b3-4752-9c94-89b59621b7ae",
+        "fe447540-20b2-4525-b557-c4c6072edef6",
+        "04d3499e-a9ee-4eaf-95cd-7c79405ab470"
+      ],
+      "notes": "Tightened the automated persona by removing unsupported assumptions about overall flexibility and focusing on visible pricing, paywalls, and free-tier expectations."
+    },
+    {
+      "id": "P_hybrid_5",
+      "name": "Reliability-Dependent Distressed User",
+      "description": "A user who may already be stressed when opening the app and needs the interface, chat flow, and stored conversation state to work consistently.",
+      "derived_from_group": "H5",
+      "goals": [
+        "Get a usable response without technical delays",
+        "Resume support without losing prior conversation context"
+      ],
+      "pain_points": [
+        "Slow responses and errors add frustration",
+        "Interrupted or broken flows reduce trust in the app"
+      ],
+      "context": [
+        "Often uses the app in moments of elevated emotional stress",
+        "Experiences both performance issues and continuity failures as harmful"
+      ],
+      "constraints": [
+        "Core screens and chat responses must load promptly",
+        "The app should preserve conversation continuity after interruption"
+      ],
+      "evidence_reviews": [
+        "8050720c-1ad1-49b5-8e0d-edef3c2159e8",
+        "05d4b308-6c76-4d98-9f90-79cda89e2f5f",
+        "3bc1cc40-5231-4ab6-baca-f75b4bd2dc21"
+      ],
+      "notes": "Revised the automated persona to replace generic 'seamless' language with specific concerns about load time, interruption, and continuity."
     }
   ]
 }

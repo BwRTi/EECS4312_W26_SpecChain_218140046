@@ -2,11 +2,103 @@
   "groups": [
     {
       "group_id": "G1",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "theme": "Users seeking emotional support, a safe place to vent, and non-judgmental companionship",
+      "review_ids": [
+        "0e86e8db-f3d6-4ca6-955e-62cd79ab7aa5",
+        "74054788-8e3d-4ff5-b32f-9fdf07239067",
+        "07eeb274-9d04-46e0-9faa-235c2d4e755f",
+        "3133bca6-0110-4244-a19d-90d22bf1bbdb",
+        "ba132535-030a-4361-9171-b79fe9d51156",
+        "482ec809-c964-4108-a4ec-adda3ab62673",
+        "26b3b520-ba75-4603-88bf-1c6bd1e56825",
+        "a3ea9a98-6bbb-4223-bba2-26177981b11c",
+        "2d97b5bb-f962-4a1c-9bb1-37b209742051",
+        "230c65f9-a6b5-4bec-8396-28491aa23365"
+      ],
       "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
+        "helpful app talk support",
+        "need companion help deal emotion daily highly recommend app"
+      ]
+    },
+    {
+      "group_id": "G2",
+      "theme": "Users relying on CBT exercises, guided tools, and self-help routines",
+      "review_ids": [
+        "57877b58-2bef-4264-8d96-f911f020dd3a",
+        "20a34aad-cedf-4188-a521-c18ed19d44dc",
+        "6a1429c7-c02d-4682-8378-ffd45a371b0d",
+        "7d9539a6-eff3-42ac-a90a-38aab4d4a0e6",
+        "dedf3769-9878-43c1-98d2-14ac1e7ae138",
+        "e91f299c-4b0f-40d0-8b39-8be08ebf9289",
+        "031051be-e3f5-4d4c-91c8-e48544c6c8d3",
+        "28750c28-b89c-4a96-8e4b-b2189a55b4df",
+        "685fcf45-ccaf-442c-bf66-e87b95ba3dc1",
+        "7def514e-5932-4b1b-a835-35adab7d9ee1"
+      ],
+      "example_reviews": [
+        "love utilizes cbt technique help break negative thought cycle",
+        "good really liked mindful breathing relaxation tool helped helpful"
+      ]
+    },
+    {
+      "group_id": "G3",
+      "theme": "Users dissatisfied with repetitive, robotic, or low-context AI conversations",
+      "review_ids": [
+        "f5c06977-d504-4779-aa19-9bc926bef7e4",
+        "b397ea18-859a-48f2-8dc2-815c2c1c251c",
+        "266d3ac7-1da1-49eb-b08c-c5d368176e60",
+        "5234d788-143a-4c45-81db-60231b9b5880",
+        "3f84d734-c1a8-474b-8209-097d0ff53345",
+        "45bc9d0f-33c3-4bfb-b82c-e5c617642269",
+        "2671ec68-f670-4dc5-8dde-ec36a94dab6e",
+        "bde32dc8-13ae-45f0-b535-4885dd76876f",
+        "44c20aa6-6a9e-47cb-bd55-b0df5dbcc579",
+        "1e0ea548-1136-496e-9b10-9c94ac79682c"
+      ],
+      "example_reviews": [
+        "ai chat doesn give useful insight keep repeating thing",
+        "feel like chatting customer support bot designed five year ago"
+      ]
+    },
+    {
+      "group_id": "G4",
+      "theme": "Price-sensitive users concerned about subscriptions, paywalls, and free access",
+      "review_ids": [
+        "5e652fcf-626a-4df5-b3f1-e6509927ce9a",
+        "fe447540-20b2-4525-b557-c4c6072edef6",
+        "56b34d1e-932f-4799-8163-613efc1bd4ce",
+        "abc3b766-f14f-4d40-8a53-1fe3f026f1cd",
+        "e7081ee3-8de0-49d3-90a6-217a48ed0082",
+        "c71733c4-5afc-49a1-bc68-794286617a0f",
+        "8b07cebd-d62a-4f11-94a6-332a534f22c3",
+        "cb49b063-7831-44ae-916a-4304b33c0f8f",
+        "9a245931-eab1-4ade-9263-58591c1096a4",
+        "e99e4d60-f9fc-4c4d-9620-4371dba820a9"
+      ],
+      "example_reviews": [
+        "install app searching something free paid",
+        "subscription expensive end day paid therapist ai pet something"
+      ]
+    },
+    {
+      "group_id": "G5",
+      "theme": "Users blocked by slow performance, errors, lost context, and unstable interactions",
+      "review_ids": [
+        "6e9994a0-5c64-41e4-87ae-ff77bb2e4202",
+        "8050720c-1ad1-49b5-8e0d-edef3c2159e8",
+        "f8f924d7-5e60-42eb-8d1f-0b06581f82cf",
+        "95c354b5-eeae-4392-b787-5cf9b53d4b99",
+        "87ee824c-fb9a-4d35-b231-700f4420176c",
+        "82c24d40-03a6-43aa-bf51-225b60c5b5b9",
+        "05d4b308-6c76-4d98-9f90-79cda89e2f5f",
+        "fcddcc0b-a26a-44b6-a563-33c7b682c33b",
+        "3bc1cc40-5231-4ab6-baca-f75b4bd2dc21",
+        "cd176444-20e6-4e15-8cca-540e7c3cbec6"
+      ],
+      "example_reviews": [
+        "kept glitching saying check erasing long conversation",
+        "take long load message"
       ]
     }
-  ]}
+  ]
+}

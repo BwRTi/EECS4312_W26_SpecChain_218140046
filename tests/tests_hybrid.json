@@ -3,14 +3,231 @@
     {
       "test_id": "T_hybrid_1",
       "requirement_id": "FR_hybrid_1",
-      "scenario": "Save a workout entry without crashing",
+      "scenario": "Open support chat directly from the home screen",
       "steps": [
-        "Open the workout logging feature",
-        "Enter workout information",
-        "Submit the workout"
+        "Launch the app and wait for the home screen",
+        "Tap the visible primary support action once"
       ],
-      "expected_result": "The workout is saved successfully and the application does not crash.",
-      "notes": "Revised the expected result to match the updated hybrid requirement."
+      "expected_result": "An active chat input opens within 3 seconds and no additional navigation step is required.",
+      "notes": "Refined from the automated test to match the hybrid requirement's one-tap entry condition."
+    },
+    {
+      "test_id": "T_hybrid_11",
+      "requirement_id": "FR_hybrid_1",
+      "scenario": "Keep chat entry to a single tap from the home screen",
+      "steps": [
+        "Launch the app and remain on the home screen",
+        "Count the taps needed to reach an active support chat input"
+      ],
+      "expected_result": "The user reaches an active chat input in no more than one tap and no intermediate screen is required.",
+      "notes": "Added to verify the one-tap navigation constraint separately from the timing condition."
+    },
+    {
+      "test_id": "T_hybrid_2",
+      "requirement_id": "FR_hybrid_2",
+      "scenario": "Acknowledge an emotional disclosure without judgment",
+      "steps": [
+        "Open an active support conversation",
+        "Send a message describing loneliness or overwhelm"
+      ],
+      "expected_result": "The first system reply acknowledges the emotional state and does not contain blaming, mocking, or dismissive language.",
+      "notes": "Clarified the expected result so it is directly traceable to the hybrid support requirement."
+    },
+    {
+      "test_id": "T_hybrid_12",
+      "requirement_id": "FR_hybrid_2",
+      "scenario": "Acknowledge stress before suggesting the next step",
+      "steps": [
+        "Open an active support conversation",
+        "Send a message describing stress or overwhelm",
+        "Inspect the first system reply before any follow-up reply appears"
+      ],
+      "expected_result": "The first reply acknowledges the user's emotional state before suggesting any exercise, action, or next step.",
+      "notes": "Added to verify the ordering requirement in the hybrid support response."
+    },
+    {
+      "test_id": "T_hybrid_3",
+      "requirement_id": "FR_hybrid_3",
+      "scenario": "Show separate entries for core coping tools",
+      "steps": [
+        "Open the self-help tools area",
+        "Inspect the list of available tools"
+      ],
+      "expected_result": "Breathing, grounding, journaling, and meditation appear as separate selectable entries.",
+      "notes": "Updated from the automated tools test to verify the revised hybrid categories."
+    },
+    {
+      "test_id": "T_hybrid_13",
+      "requirement_id": "FR_hybrid_3",
+      "scenario": "Keep core coping tools as distinct selectable entries after reopening the tools area",
+      "steps": [
+        "Open the self-help tools area",
+        "Leave the tools area and reopen it",
+        "Inspect the list of available tools again"
+      ],
+      "expected_result": "Breathing, grounding, journaling, and meditation still appear as separate selectable entries after reopening the tools area.",
+      "notes": "Added to verify that the structured tool layout persists across repeated access."
+    },
+    {
+      "test_id": "T_hybrid_4",
+      "requirement_id": "FR_hybrid_4",
+      "scenario": "Match an exercise recommendation to the stated issue",
+      "steps": [
+        "Open a support conversation",
+        "Describe a specific issue and request a coping exercise",
+        "Request another recommendation only if needed"
+      ],
+      "expected_result": "The recommendation references the user's stated issue and is not identical to the immediately previous recommendation unless the user asks for repetition.",
+      "notes": "Added to verify that the hybrid revision addresses repetitive or mismatched exercise suggestions."
+    },
+    {
+      "test_id": "T_hybrid_14",
+      "requirement_id": "FR_hybrid_4",
+      "scenario": "Avoid repeating the same exercise recommendation across consecutive requests",
+      "steps": [
+        "Open a support conversation",
+        "Describe a specific issue and request a coping exercise",
+        "Request another exercise without asking for repetition"
+      ],
+      "expected_result": "The second recommendation is not identical to the immediately previous recommendation and remains relevant to the user's stated issue.",
+      "notes": "Added to test the anti-repetition part of the hybrid exercise requirement."
+    },
+    {
+      "test_id": "T_hybrid_5",
+      "requirement_id": "FR_hybrid_5",
+      "scenario": "Reply using the latest user topic",
+      "steps": [
+        "Open a support conversation",
+        "Send a message containing a specific event or feeling"
+      ],
+      "expected_result": "The reply includes at least one matching topic, event, or feeling from the user's immediately preceding message.",
+      "notes": "Rewritten from the automated conversation-quality test to check topical relevance explicitly."
+    },
+    {
+      "test_id": "T_hybrid_15",
+      "requirement_id": "FR_hybrid_5",
+      "scenario": "Reply using the latest feeling expressed by the user",
+      "steps": [
+        "Open a support conversation",
+        "Send a message describing a specific feeling such as guilt, loneliness, or anxiety"
+      ],
+      "expected_result": "The reply includes at least one matching feeling from the user's immediately preceding message.",
+      "notes": "Added to verify the feeling-matching branch of the response relevance requirement."
+    },
+    {
+      "test_id": "T_hybrid_6",
+      "requirement_id": "FR_hybrid_6",
+      "scenario": "Continue the same topic after several turns",
+      "steps": [
+        "Open a support conversation",
+        "Exchange at least six turns on one topic",
+        "Ask a follow-up question about that same topic"
+      ],
+      "expected_result": "The system continues the same topic without restarting from a generic introduction.",
+      "notes": "Updated to align with the hybrid requirement's context-retention expectation."
+    },
+    {
+      "test_id": "T_hybrid_16",
+      "requirement_id": "FR_hybrid_6",
+      "scenario": "Preserve context across up to ten turns in one session",
+      "steps": [
+        "Open a support conversation",
+        "Exchange ten consecutive turns about one topic",
+        "Ask a follow-up question about information mentioned earlier in the same session"
+      ],
+      "expected_result": "The system continues the same topic and reflects earlier information instead of resetting to a generic introduction.",
+      "notes": "Added to verify the explicit ten-turn context-retention threshold."
+    },
+    {
+      "test_id": "T_hybrid_7",
+      "requirement_id": "FR_hybrid_7",
+      "scenario": "Label free and paid sections on the pricing screen",
+      "steps": [
+        "Open the pricing screen",
+        "Review the pricing layout before any checkout action"
+      ],
+      "expected_result": "The interface shows one labeled free section and one labeled paid section before any checkout or subscription confirmation step.",
+      "notes": "Refined from the automated pricing test to verify the revised hybrid labeling rule."
+    },
+    {
+      "test_id": "T_hybrid_17",
+      "requirement_id": "FR_hybrid_7",
+      "scenario": "Show tier labels before any purchase confirmation step",
+      "steps": [
+        "Open the pricing screen",
+        "Inspect the screen before selecting any checkout or subscription confirmation action"
+      ],
+      "expected_result": "One labeled free section and one labeled paid section are visible before any checkout or subscription confirmation step is reached.",
+      "notes": "Added to separate the screen placement requirement from the basic labeling check."
+    },
+    {
+      "test_id": "T_hybrid_8",
+      "requirement_id": "FR_hybrid_8",
+      "scenario": "Show subscription price and billing period with paid features",
+      "steps": [
+        "Open the pricing screen",
+        "Locate the paid feature list"
+      ],
+      "expected_result": "The same screen displays the subscription price and billing period together with the paid feature list.",
+      "notes": "Added to ensure the hybrid pricing requirement is directly testable."
+    },
+    {
+      "test_id": "T_hybrid_18",
+      "requirement_id": "FR_hybrid_8",
+      "scenario": "Do not require an extra screen to view price and billing period",
+      "steps": [
+        "Open the pricing screen",
+        "Locate the paid feature list",
+        "Check whether the subscription price and billing period are visible without further navigation"
+      ],
+      "expected_result": "The subscription price and billing period are visible on the same screen as the paid feature list without opening another screen.",
+      "notes": "Added to verify the no-additional-screen condition in the hybrid pricing requirement."
+    },
+    {
+      "test_id": "T_hybrid_9",
+      "requirement_id": "FR_hybrid_9",
+      "scenario": "Open an existing chat within the hybrid performance target",
+      "steps": [
+        "Open an existing conversation on a supported device with normal network connectivity",
+        "Measure the time until the message list and text input become interactive"
+      ],
+      "expected_result": "The message list and text input become interactive within 2 seconds.",
+      "notes": "Revised the automated reliability test to use the hybrid requirement's explicit response-time threshold."
+    },
+    {
+      "test_id": "T_hybrid_19",
+      "requirement_id": "FR_hybrid_9",
+      "scenario": "Accept user input within the hybrid performance target",
+      "steps": [
+        "Open an existing conversation on a supported device with normal network connectivity",
+        "Measure the time until the text input accepts typing"
+      ],
+      "expected_result": "The text input accepts user input within 2 seconds after the existing conversation is opened.",
+      "notes": "Added to verify the input-readiness condition separately from message-list visibility."
+    },
+    {
+      "test_id": "T_hybrid_10",
+      "requirement_id": "FR_hybrid_10",
+      "scenario": "Restore same-day conversation history after interruption",
+      "steps": [
+        "Complete at least one message exchange in a conversation",
+        "Close the app, interrupt it, or send it to the background",
+        "Reopen the app on the same day"
+      ],
+      "expected_result": "The previous messages from that conversation are displayed again after the app reopens.",
+      "notes": "Updated from the automated continuity test to match the hybrid restoration requirement."
+    },
+    {
+      "test_id": "T_hybrid_20",
+      "requirement_id": "FR_hybrid_10",
+      "scenario": "Restore same-day chat history after the app is sent to the background",
+      "steps": [
+        "Complete at least one message exchange in a conversation",
+        "Send the app to the background without deleting app data",
+        "Reopen the app on the same day"
+      ],
+      "expected_result": "The previous messages from that conversation are displayed again when the app is reopened on the same day.",
+      "notes": "Added to verify restoration behavior for a common interruption path."
     }
   ]
 }

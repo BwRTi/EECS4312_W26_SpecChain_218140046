@@ -1,13 +1,109 @@
-{  "groups": [
+{
+  "groups": [
     {
       "group_id": "H1",
-      "theme": "Workout logging failures during activity tracking",
-      "review_ids": ["rev_12", "rev_33", "rev_41", "rev_92"],
-      "example_reviews": [
-        "The app crashes whenever I try to log a run.",
-        "Logging workouts causes the app to freeze."
+      "theme": "Users seeking a safe, non-judgmental place to express emotions and receive immediate support",
+      "review_ids": [
+        "8fddcc15-22d0-41f4-830d-a2c94d408e8f",
+        "db74ee6a-9d8a-4e42-be16-23cd68f19f5b",
+        "f96fea05-d977-4fda-bbf4-5558b9aa1c8a",
+        "eb2e06ca-b667-455f-866f-bce3960e64d7",
+        "0fd68053-e1bb-4af0-9785-918c27713504",
+        "b4f0c0a3-f051-4cae-9fdc-4177d919327d",
+        "af86209f-7fc6-4740-85f9-8a6f6dd2398e",
+        "9bb803d7-0c18-4d22-b49e-833d0a4bde36",
+        "be2ae744-4878-44bf-b326-df66403864c7",
+        "4ea19ec3-f2d8-4bd7-b90f-fc2a7bcbb2d6"
       ],
-      "notes": "Removed one unrelated review about login problems from the original automated group."
+      "example_reviews": [
+        "helpful good ear listen need someone talk help deal issue need help brandon reed",
+        "search ai talk unsaid feeling app need im glad find app minute ago wysa helpful people one talk someone would listen feel thank u"
+      ],
+      "notes": "Refined the automated group by removing reviews focused mainly on privacy, pricing, or chatbot implementation details and keeping reviews centered on emotional expression and immediate support."
+    },
+    {
+      "group_id": "H2",
+      "theme": "Users evaluating guided coping exercises, mindfulness tools, and structured self-help activities",
+      "review_ids": [
+        "28750c28-b89c-4a96-8e4b-b2189a55b4df",
+        "8175085a-4f63-4eb6-b911-2498f448f388",
+        "c478e1c4-c7c8-48f7-9297-25a1c1b413f4",
+        "e91f299c-4b0f-40d0-8b39-8be08ebf9289",
+        "180e859d-c357-423a-83a2-6745d969a01f",
+        "e27a8c1e-a828-4dcb-91e8-4b703af3fa28",
+        "32c9d577-ca20-4eec-928d-ed390ba42deb",
+        "db05f7c2-9726-4cbc-8601-8ee723f2406c",
+        "219f8d45-78c2-4d4b-93f0-6e1061509c72",
+        "39b2a0f8-2531-4026-b928-44a23611880e"
+      ],
+      "example_reviews": [
+        "helpful talking also giving guided meditation breathing exercise sometimes wish won talk robot mode overall great venting space",
+        "thankyou immensely app wysa free option first go keep using app day night need app really helped four morning chat option breathing exercise so emergency number gratitude exercise meditation"
+      ],
+      "notes": "Kept the automated exercise-focused cluster but removed reviews that were mostly about generic app quality and retained reviews discussing breathing, meditation, grounding, journaling, and exercise relevance."
+    },
+    {
+      "group_id": "H3",
+      "theme": "Users dissatisfied with repetitive, robotic, or context-poor AI conversation quality",
+      "review_ids": [
+        "4cd9648e-5297-4f2b-b15f-bc560f54d4e2",
+        "d3bcdd61-3cfa-4d2a-9192-b4b165390233",
+        "5234d788-143a-4c45-81db-60231b9b5880",
+        "5fe603b1-771c-49c9-96ec-f007e36670c5",
+        "6a6cb8ef-0594-4e2d-bdb3-977c4de2b775",
+        "8eb46241-f7e1-414d-a8c9-ab4765fc6eab",
+        "98054e68-2e1b-4463-b3e5-86d0c006a0cf",
+        "a77f880f-4bc4-4246-8572-456ddf9d0262",
+        "bde32dc8-13ae-45f0-b535-4885dd76876f",
+        "df8e4887-dbea-4593-b8f0-b6b6dba2ddbf"
+      ],
+      "example_reviews": [
+        "doesn understand anything say direct short generic exercise don work responds inappropriately",
+        "ai chat doesnt give useful insight keep repeating thing helpful way frustrating"
+      ],
+      "notes": "Tightened the automated chatbot-quality group by keeping reviews about repetition, poor understanding, and weak context, while excluding overlap with pricing and performance complaints."
+    },
+    {
+      "group_id": "H4",
+      "theme": "Users frustrated by subscription cost, paywalls, and unclear free-versus-paid access",
+      "review_ids": [
+        "4a86efa7-99b3-4752-9c94-89b59621b7ae",
+        "949ffb3b-be3d-4d04-8e3a-48d85e4bc9fc",
+        "f684233d-04c6-484d-9b12-9f4cfffd26db",
+        "fe447540-20b2-4525-b557-c4c6072edef6",
+        "e7af75da-9412-4a7d-9a9a-58e34d398fdc",
+        "04d3499e-a9ee-4eaf-95cd-7c79405ab470",
+        "5e652fcf-626a-4df5-b3f1-e6509927ce9a",
+        "8b07cebd-d62a-4f11-94a6-332a534f22c3",
+        "df8deab0-2543-4a28-a438-c5306fbd06cb",
+        "44c20aa6-6a9e-47cb-bd55-b0df5dbcc579"
+      ],
+      "example_reviews": [
+        "disappointed used free first launched loved using app time subscription method quite expensive",
+        "subscription service free option wish known downloading app additionally ai don support"
+      ],
+      "notes": "Revised the pricing group to emphasize transparency and paywall friction, and removed entries that were more about chatbot quality than pricing itself."
+    },
+    {
+      "group_id": "H5",
+      "theme": "Users blocked by slow response times, errors, interrupted flows, and missing conversation continuity",
+      "review_ids": [
+        "8050720c-1ad1-49b5-8e0d-edef3c2159e8",
+        "87ee824c-fb9a-4d35-b231-700f4420176c",
+        "05d4b308-6c76-4d98-9f90-79cda89e2f5f",
+        "3bc1cc40-5231-4ab6-baca-f75b4bd2dc21",
+        "610860c8-ba83-46a3-81c9-716fbf63e243",
+        "82c24d40-03a6-43aa-bf51-225b60c5b5b9",
+        "95c354b5-eeae-4392-b787-5cf9b53d4b99",
+        "cd176444-20e6-4e15-8cca-540e7c3cbec6",
+        "6e9994a0-5c64-41e4-87ae-ff77bb2e4202",
+        "745dac30-9a8f-417b-a0b4-b97e3ceed743"
+      ],
+      "example_reviews": [
+        "slow unoptimized response feel robotic relevant said",
+        "cant even get write nickname say oops something went wrong"
+      ],
+      "notes": "Refined the automated reliability group to focus on response speed, load failures, interruptions, and lost continuity, while dropping examples that were mainly about generic dissatisfaction."
     }
   ]
 }

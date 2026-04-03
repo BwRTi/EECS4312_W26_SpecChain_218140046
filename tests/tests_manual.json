@@ -1,16 +1,208 @@
-
 {
   "tests": [
     {
-      "test_id": "T_auto_1",
+      "test_id": "T_manual_1",
       "requirement_id": "FR1",
-      "scenario": "Workout Logging Stability",
+      "scenario": "Open support chat from the home screen",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Launch the app and wait for the home screen",
+        "Tap the primary support action once"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "A chat session opens and accepts text input within 3 seconds."
+    },
+    {
+      "test_id": "T_manual_2",
+      "requirement_id": "FR1",
+      "scenario": "Do not require extra navigation before chat starts",
+      "steps": [
+        "Launch the app to the home screen",
+        "Count the number of taps required to reach an active chat input"
+      ],
+      "expected_result": "The user reaches an active chat input in no more than one tap."
+    },
+    {
+      "test_id": "T_manual_3",
+      "requirement_id": "FR2",
+      "scenario": "Acknowledge a stressful disclosure",
+      "steps": [
+        "Open a support chat",
+        "Send the message 'I feel overwhelmed and anxious today'"
+      ],
+      "expected_result": "The first system response acknowledges the user's emotional state and does not contain blaming or dismissive wording."
+    },
+    {
+      "test_id": "T_manual_4",
+      "requirement_id": "FR2",
+      "scenario": "Acknowledge loneliness disclosure",
+      "steps": [
+        "Open a support chat",
+        "Send the message 'I feel alone and do not know who to talk to'"
+      ],
+      "expected_result": "The first system response references loneliness or support and remains non-judgmental."
+    },
+    {
+      "test_id": "T_manual_5",
+      "requirement_id": "FR3",
+      "scenario": "Show core exercise categories",
+      "steps": [
+        "Open the self-help tools area"
+      ],
+      "expected_result": "The interface shows breathing, journaling, and thought reframing as distinct exercise categories."
+    },
+    {
+      "test_id": "T_manual_6",
+      "requirement_id": "FR3",
+      "scenario": "Keep categories visible after refresh",
+      "steps": [
+        "Open the self-help tools area",
+        "Refresh or reopen the tools area"
+      ],
+      "expected_result": "Breathing, journaling, and thought reframing remain available as separate categories."
+    },
+    {
+      "test_id": "T_manual_7",
+      "requirement_id": "FR4",
+      "scenario": "Start a breathing exercise quickly",
+      "steps": [
+        "Open the self-help tools area",
+        "Select the breathing category",
+        "Start a listed breathing exercise"
+      ],
+      "expected_result": "The chosen exercise starts within 2 taps from the tools area and shows its first instruction within 3 seconds."
+    },
+    {
+      "test_id": "T_manual_8",
+      "requirement_id": "FR4",
+      "scenario": "Start a journaling exercise quickly",
+      "steps": [
+        "Open the self-help tools area",
+        "Select a listed journaling exercise"
+      ],
+      "expected_result": "The journaling exercise starts within 2 taps from the tools area and shows the first prompt within 3 seconds."
+    },
+    {
+      "test_id": "T_manual_9",
+      "requirement_id": "FR5",
+      "scenario": "Reference the user's stated feeling",
+      "steps": [
+        "Open a support chat",
+        "Send the message 'I am nervous about tomorrow's exam and cannot sleep'"
+      ],
+      "expected_result": "The reply references nervousness, the exam, sleep difficulty, or a combination of those topics."
+    },
+    {
+      "test_id": "T_manual_10",
+      "requirement_id": "FR5",
+      "scenario": "Reference the user's stated situation",
+      "steps": [
+        "Open a support chat",
+        "Send the message 'I argued with my friend and feel guilty'"
+      ],
+      "expected_result": "The reply references the conflict, guilt, or the friendship situation described by the user."
+    },
+    {
+      "test_id": "T_manual_11",
+      "requirement_id": "FR6",
+      "scenario": "Maintain context across multiple turns",
+      "steps": [
+        "Open a support chat",
+        "Exchange at least 6 back-and-forth turns about work stress",
+        "Ask a follow-up question about the same stressor"
+      ],
+      "expected_result": "The system response reflects details from the earlier messages in the same session."
+    },
+    {
+      "test_id": "T_manual_12",
+      "requirement_id": "FR6",
+      "scenario": "Do not restart the chat after a follow-up",
+      "steps": [
+        "Open a support chat",
+        "Describe a specific personal concern",
+        "Send a follow-up question in the same session"
+      ],
+      "expected_result": "The system continues the same conversation instead of resetting to a generic introduction."
+    },
+    {
+      "test_id": "T_manual_13",
+      "requirement_id": "FR7",
+      "scenario": "Label free and paid sections on the pricing screen",
+      "steps": [
+        "Open the pricing or upgrade screen"
+      ],
+      "expected_result": "The screen contains one labeled free section and one labeled paid section before purchase confirmation."
+    },
+    {
+      "test_id": "T_manual_14",
+      "requirement_id": "FR7",
+      "scenario": "Show pricing structure before checkout",
+      "steps": [
+        "Open the pricing or upgrade screen",
+        "Review the content before selecting purchase"
+      ],
+      "expected_result": "Feature availability is separated into free and paid sections before the user reaches checkout."
+    },
+    {
+      "test_id": "T_manual_15",
+      "requirement_id": "FR8",
+      "scenario": "Dismiss an upgrade prompt in a free-tier flow",
+      "steps": [
+        "Open a feature marked as free-tier",
+        "Wait for an upgrade prompt if it appears",
+        "Select the dismiss action"
+      ],
+      "expected_result": "The user returns to the same free-tier flow without losing progress."
+    },
+    {
+      "test_id": "T_manual_16",
+      "requirement_id": "FR8",
+      "scenario": "Keep draft state after dismissing an upgrade prompt",
+      "steps": [
+        "Enter text in a free-tier conversation flow",
+        "Dismiss an upgrade prompt"
+      ],
+      "expected_result": "The user remains in the free-tier flow and previously entered text is still present."
+    },
+    {
+      "test_id": "T_manual_17",
+      "requirement_id": "FR9",
+      "scenario": "Load the home screen within the target time",
+      "steps": [
+        "Launch the app on a supported device with normal network connectivity",
+        "Measure the time until the home screen becomes interactive"
+      ],
+      "expected_result": "The home screen becomes interactive within 3 seconds."
+    },
+    {
+      "test_id": "T_manual_18",
+      "requirement_id": "FR9",
+      "scenario": "Load an active chat screen within the target time",
+      "steps": [
+        "Open an existing chat session on a supported device with normal network connectivity",
+        "Measure the time until the chat screen becomes interactive"
+      ],
+      "expected_result": "The active chat screen becomes interactive within 3 seconds."
+    },
+    {
+      "test_id": "T_manual_19",
+      "requirement_id": "FR10",
+      "scenario": "Restore an unsent draft after interruption",
+      "steps": [
+        "Type a draft message in an active chat without sending it",
+        "Send the app to the background or close it unexpectedly",
+        "Reopen the app on the same day"
+      ],
+      "expected_result": "The unsent draft text is restored."
+    },
+    {
+      "test_id": "T_manual_20",
+      "requirement_id": "FR10",
+      "scenario": "Restore chat history after interruption",
+      "steps": [
+        "Complete a multi-turn conversation in an active chat",
+        "Close the app unexpectedly or send it to the background",
+        "Reopen the app on the same day"
+      ],
+      "expected_result": "The previously completed chat messages are restored."
     }
   ]
 }

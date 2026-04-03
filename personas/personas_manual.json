@@ -1,22 +1,139 @@
-{  "personas": [
+{
+  "personas": [
     {
       "id": "P1",
-      "name": "Frequent Activity Tracker",
-      "description": "A user who relies on the app to log workouts frequently and expects stable performance.",
+      "name": "Emotionally Overloaded Support Seeker",
+      "description": "A user who turns to the app during stress, loneliness, or anxiety and wants a safe, non-judgmental space to talk through feelings.",
       "derived_from_group": "G1",
       "goals": [
-        "Track workouts consistently",
-        "Log activity quickly"      ],
+        "Express difficult emotions safely",
+        "Feel listened to and supported at any time"
+      ],
       "pain_points": [
-        "App crashes during logging",
-        "Workout data sometimes disappears"      ],
+        "Does not always have a trusted person available",
+        "Can feel dismissed or unsupported in daily life"
+      ],
       "context": [
-        "Logging activities immediately after workouts",
-        "Using the app during outdoor exercise"      ],
+        "Uses the app during emotionally difficult moments",
+        "May need immediate support outside normal therapy hours"
+      ],
       "constraints": [
-        "Logging must be reliable",
-        "Data should not be lost"       ],
+        "Needs emotionally safe language",
+        "Needs support without judgment or shame"
+      ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_45"      ]
-    }  ] }
+        "0e86e8db-f3d6-4ca6-955e-62cd79ab7aa5",
+        "ba132535-030a-4361-9171-b79fe9d51156",
+        "2d97b5bb-f962-4a1c-9bb1-37b209742051"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Self-Guided Coping Tool User",
+      "description": "A user who values structured coping exercises such as CBT prompts, breathing, journaling, and guided routines to regulate emotions independently.",
+      "derived_from_group": "G2",
+      "goals": [
+        "Access practical coping exercises quickly",
+        "Build repeatable self-help routines"
+      ],
+      "pain_points": [
+        "Needs more than open-ended conversation",
+        "Gets frustrated if useful exercises are hard to find or locked"
+      ],
+      "context": [
+        "Uses the app for daily check-ins and emotional regulation",
+        "Often wants guided activities rather than passive reading"
+      ],
+      "constraints": [
+        "Exercises should be easy to start",
+        "Instructions should be specific and actionable"
+      ],
+      "evidence_reviews": [
+        "57877b58-2bef-4264-8d96-f911f020dd3a",
+        "7d9539a6-eff3-42ac-a90a-38aab4d4a0e6",
+        "28750c28-b89c-4a96-8e4b-b2189a55b4df"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Context-Aware Conversation Critic",
+      "description": "A user who expects the AI to understand prior messages, avoid repetition, and produce relevant, personalized responses instead of robotic dialogue.",
+      "derived_from_group": "G3",
+      "goals": [
+        "Have a coherent back-and-forth conversation",
+        "Receive responses that reflect the user's actual situation"
+      ],
+      "pain_points": [
+        "Responses feel generic, repetitive, or scripted",
+        "The chat loses context or misses what the user said"
+      ],
+      "context": [
+        "Uses the app as a conversational support tool",
+        "Compares the app against modern AI chat expectations"
+      ],
+      "constraints": [
+        "Needs contextual continuity across turns",
+        "Needs responses that directly address the user's input"
+      ],
+      "evidence_reviews": [
+        "5234d788-143a-4c45-81db-60231b9b5880",
+        "45bc9d0f-33c3-4bfb-b82c-e5c617642269",
+        "bde32dc8-13ae-45f0-b535-4885dd76876f"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Price-Conscious Mental Health User",
+      "description": "A user who wants affordable support, expects transparency about paid features, and is sensitive to misleading free-tier claims or aggressive upsells.",
+      "derived_from_group": "G4",
+      "goals": [
+        "Understand what is free before investing time",
+        "Access meaningful support without surprise paywalls"
+      ],
+      "pain_points": [
+        "Feels misled by pricing or free-trial messaging",
+        "Perceives subscriptions as too expensive for the value provided"
+      ],
+      "context": [
+        "May be comparing multiple low-cost or free mental health apps",
+        "May already be under financial stress"
+      ],
+      "constraints": [
+        "Pricing must be easy to understand",
+        "Upgrade prompts must not block essential use too early"
+      ],
+      "evidence_reviews": [
+        "5e652fcf-626a-4df5-b3f1-e6509927ce9a",
+        "56b34d1e-932f-4799-8163-613efc1bd4ce",
+        "e7081ee3-8de0-49d3-90a6-217a48ed0082"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Reliability-Focused User in Distress",
+      "description": "A user who may already be stressed and needs the app to load quickly, preserve conversation state, and behave consistently without glitches.",
+      "derived_from_group": "G5",
+      "goals": [
+        "Use the app without technical interruptions",
+        "Trust that conversations and tools will load and persist correctly"
+      ],
+      "pain_points": [
+        "Slow loading, broken screens, and lost conversation history",
+        "Errors increase frustration during vulnerable moments"
+      ],
+      "context": [
+        "Often opens the app during urgent emotional need",
+        "May be using an older or slower mobile device"
+      ],
+      "constraints": [
+        "Core flows must remain stable under normal use",
+        "The app must recover gracefully from errors"
+      ],
+      "evidence_reviews": [
+        "f8f924d7-5e60-42eb-8d1f-0b06581f82cf",
+        "05d4b308-6c76-4d98-9f90-79cda89e2f5f",
+        "3bc1cc40-5231-4ab6-baca-f75b4bd2dc21"
+      ]
+    }
+  ]
+}

@@ -1,15 +1,224 @@
 {
   "tests": [
     {
-      "test_id": "T_auto_1",
+      "test_id": "T_auto_1_a",
       "requirement_id": "FR_auto_1",
-      "scenario": "Logging a workout without crashing",
+      "scenario": "Provide a clear and visible indicator of its emotional support capabilities on the main screen in the primary flow",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Open the relevant screen or feature for this requirement",
+        "Perform the primary user action described by the requirement",
+        "Observe the system response and compare it against the acceptance criteria"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "Given the user opens the main screen, when the screen finishes loading, then the interface shows a clear and visible indicator of its emotional support capabilities."
+    },
+    {
+      "test_id": "T_auto_1_b",
+      "requirement_id": "FR_auto_1",
+      "scenario": "Provide a clear and visible indicator of its emotional support capabilities on the main screen in a repeat or follow-up flow",
+      "steps": [
+        "Open the same feature in a realistic follow-up or repeat-use situation",
+        "Perform the requirement-related action again while preserving the same flow",
+        "Verify that the system still satisfies the stated acceptance criteria"
+      ],
+      "expected_result": "Given the user opens the main screen, when the screen finishes loading, then the interface shows a clear and visible indicator of its emotional support capabilities."
+    },
+    {
+      "test_id": "T_auto_2_a",
+      "requirement_id": "FR_auto_2",
+      "scenario": "Allow users to access a list of self-help exercises and tools without requiring a subscription in the primary flow",
+      "steps": [
+        "Open the relevant screen or feature for this requirement",
+        "Perform the primary user action described by the requirement",
+        "Observe the system response and compare it against the acceptance criteria"
+      ],
+      "expected_result": "Given the user navigates to the self-help section, then the interface displays a list of available self-help exercises and tools without requiring login or subscription."
+    },
+    {
+      "test_id": "T_auto_2_b",
+      "requirement_id": "FR_auto_2",
+      "scenario": "Allow users to access a list of self-help exercises and tools without requiring a subscription in a repeat or follow-up flow",
+      "steps": [
+        "Open the same feature in a realistic follow-up or repeat-use situation",
+        "Perform the requirement-related action again while preserving the same flow",
+        "Verify that the system still satisfies the stated acceptance criteria"
+      ],
+      "expected_result": "Given the user navigates to the self-help section, then the interface displays a list of available self-help exercises and tools without requiring login or subscription."
+    },
+    {
+      "test_id": "T_auto_3_a",
+      "requirement_id": "FR_auto_3",
+      "scenario": "Display a confirmation message before sending a repetitive or generic response to a user's input in the primary flow",
+      "steps": [
+        "Open the relevant screen or feature for this requirement",
+        "Perform the primary user action described by the requirement",
+        "Observe the system response and compare it against the acceptance criteria"
+      ],
+      "expected_result": "Given the system generates a repetitive or generic response, when the response is about to be sent, then a confirmation message is displayed to the user."
+    },
+    {
+      "test_id": "T_auto_3_b",
+      "requirement_id": "FR_auto_3",
+      "scenario": "Display a confirmation message before sending a repetitive or generic response to a user's input in a repeat or follow-up flow",
+      "steps": [
+        "Open the same feature in a realistic follow-up or repeat-use situation",
+        "Perform the requirement-related action again while preserving the same flow",
+        "Verify that the system still satisfies the stated acceptance criteria"
+      ],
+      "expected_result": "Given the system generates a repetitive or generic response, when the response is about to be sent, then a confirmation message is displayed to the user."
+    },
+    {
+      "test_id": "T_auto_4_a",
+      "requirement_id": "FR_auto_4",
+      "scenario": "Clearly display its pricing model and subscription options on the pricing screen in the primary flow",
+      "steps": [
+        "Open the relevant screen or feature for this requirement",
+        "Perform the primary user action described by the requirement",
+        "Observe the system response and compare it against the acceptance criteria"
+      ],
+      "expected_result": "Given the user navigates to the pricing screen, then the interface clearly displays the pricing model, including costs and subscription options."
+    },
+    {
+      "test_id": "T_auto_4_b",
+      "requirement_id": "FR_auto_4",
+      "scenario": "Clearly display its pricing model and subscription options on the pricing screen in a repeat or follow-up flow",
+      "steps": [
+        "Open the same feature in a realistic follow-up or repeat-use situation",
+        "Perform the requirement-related action again while preserving the same flow",
+        "Verify that the system still satisfies the stated acceptance criteria"
+      ],
+      "expected_result": "Given the user navigates to the pricing screen, then the interface clearly displays the pricing model, including costs and subscription options."
+    },
+    {
+      "test_id": "T_auto_5_a",
+      "requirement_id": "FR_auto_5",
+      "scenario": "Display a loading indicator while processing user input to prevent confusion in the primary flow",
+      "steps": [
+        "Open the relevant screen or feature for this requirement",
+        "Perform the primary user action described by the requirement",
+        "Observe the system response and compare it against the acceptance criteria"
+      ],
+      "expected_result": "Given the system is processing user input, when the processing takes longer than 2 seconds, then a loading indicator is displayed to the user."
+    },
+    {
+      "test_id": "T_auto_5_b",
+      "requirement_id": "FR_auto_5",
+      "scenario": "Display a loading indicator while processing user input to prevent confusion in a repeat or follow-up flow",
+      "steps": [
+        "Open the same feature in a realistic follow-up or repeat-use situation",
+        "Perform the requirement-related action again while preserving the same flow",
+        "Verify that the system still satisfies the stated acceptance criteria"
+      ],
+      "expected_result": "Given the system is processing user input, when the processing takes longer than 2 seconds, then a loading indicator is displayed to the user."
+    },
+    {
+      "test_id": "T_auto_6_a",
+      "requirement_id": "FR_auto_6",
+      "scenario": "Store and display the user's chat history for at least 30 days in the primary flow",
+      "steps": [
+        "Open the relevant screen or feature for this requirement",
+        "Perform the primary user action described by the requirement",
+        "Observe the system response and compare it against the acceptance criteria"
+      ],
+      "expected_result": "Given the user has a conversation, when the user views their chat history, then the system displays the conversation history for at least 30 days."
+    },
+    {
+      "test_id": "T_auto_6_b",
+      "requirement_id": "FR_auto_6",
+      "scenario": "Store and display the user's chat history for at least 30 days in a repeat or follow-up flow",
+      "steps": [
+        "Open the same feature in a realistic follow-up or repeat-use situation",
+        "Perform the requirement-related action again while preserving the same flow",
+        "Verify that the system still satisfies the stated acceptance criteria"
+      ],
+      "expected_result": "Given the user has a conversation, when the user views their chat history, then the system displays the conversation history for at least 30 days."
+    },
+    {
+      "test_id": "T_auto_7_a",
+      "requirement_id": "FR_auto_7",
+      "scenario": "Provide access to a variety of self-help exercises and tools, including CBT prompts, breathing exercises, and journaling in the primary flow",
+      "steps": [
+        "Open the relevant screen or feature for this requirement",
+        "Perform the primary user action described by the requirement",
+        "Observe the system response and compare it against the acceptance criteria"
+      ],
+      "expected_result": "Given the user navigates to the self-help section, then the interface provides access to at least 5 different types of self-help exercises and tools."
+    },
+    {
+      "test_id": "T_auto_7_b",
+      "requirement_id": "FR_auto_7",
+      "scenario": "Provide access to a variety of self-help exercises and tools, including CBT prompts, breathing exercises, and journaling in a repeat or follow-up flow",
+      "steps": [
+        "Open the same feature in a realistic follow-up or repeat-use situation",
+        "Perform the requirement-related action again while preserving the same flow",
+        "Verify that the system still satisfies the stated acceptance criteria"
+      ],
+      "expected_result": "Given the user navigates to the self-help section, then the interface provides access to at least 5 different types of self-help exercises and tools."
+    },
+    {
+      "test_id": "T_auto_8_a",
+      "requirement_id": "FR_auto_8",
+      "scenario": "Allow users to rate the helpfulness of responses and provide feedback in the primary flow",
+      "steps": [
+        "Open the relevant screen or feature for this requirement",
+        "Perform the primary user action described by the requirement",
+        "Observe the system response and compare it against the acceptance criteria"
+      ],
+      "expected_result": "Given the user receives a response, when the user rates the response, then the system allows the user to provide feedback on the response."
+    },
+    {
+      "test_id": "T_auto_8_b",
+      "requirement_id": "FR_auto_8",
+      "scenario": "Allow users to rate the helpfulness of responses and provide feedback in a repeat or follow-up flow",
+      "steps": [
+        "Open the same feature in a realistic follow-up or repeat-use situation",
+        "Perform the requirement-related action again while preserving the same flow",
+        "Verify that the system still satisfies the stated acceptance criteria"
+      ],
+      "expected_result": "Given the user receives a response, when the user rates the response, then the system allows the user to provide feedback on the response."
+    },
+    {
+      "test_id": "T_auto_9_a",
+      "requirement_id": "FR_auto_9",
+      "scenario": "Offer a free trial or demo of its premium features in the primary flow",
+      "steps": [
+        "Open the relevant screen or feature for this requirement",
+        "Perform the primary user action described by the requirement",
+        "Observe the system response and compare it against the acceptance criteria"
+      ],
+      "expected_result": "Given the user navigates to the pricing screen, then the system offers a free trial or demo of its premium features."
+    },
+    {
+      "test_id": "T_auto_9_b",
+      "requirement_id": "FR_auto_9",
+      "scenario": "Offer a free trial or demo of its premium features in a repeat or follow-up flow",
+      "steps": [
+        "Open the same feature in a realistic follow-up or repeat-use situation",
+        "Perform the requirement-related action again while preserving the same flow",
+        "Verify that the system still satisfies the stated acceptance criteria"
+      ],
+      "expected_result": "Given the user navigates to the pricing screen, then the system offers a free trial or demo of its premium features."
+    },
+    {
+      "test_id": "T_auto_10_a",
+      "requirement_id": "FR_auto_10",
+      "scenario": "Display an error message and allow the user to retry when an error occurs in the primary flow",
+      "steps": [
+        "Open the relevant screen or feature for this requirement",
+        "Perform the primary user action described by the requirement",
+        "Observe the system response and compare it against the acceptance criteria"
+      ],
+      "expected_result": "Given the system encounters an error, when the error occurs, then the system displays an error message and allows the user to retry the action."
+    },
+    {
+      "test_id": "T_auto_10_b",
+      "requirement_id": "FR_auto_10",
+      "scenario": "Display an error message and allow the user to retry when an error occurs in a repeat or follow-up flow",
+      "steps": [
+        "Open the same feature in a realistic follow-up or repeat-use situation",
+        "Perform the requirement-related action again while preserving the same flow",
+        "Verify that the system still satisfies the stated acceptance criteria"
+      ],
+      "expected_result": "Given the system encounters an error, when the error occurs, then the system displays an error message and allows the user to retry the action."
     }
   ]
 }
